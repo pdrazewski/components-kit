@@ -1,0 +1,20 @@
+{
+  "name": "front-components-kit",
+  "version": "1.0.0",
+  "description": "Kit for building frontend components",
+  "main": "webpack.config.js",
+  "scripts": {
+    "config": "cp node_modules/front-components-compiler/webpack.config.js webpack.config.js & cp node_modules/front-components-compiler/template.twig template.twig & cp node_modules/front-components-compiler/postcss.config.js postcss.config.js",
+    "start": "webpack-dev-server --open",
+    "build": "webpack -p"
+  },
+  "dependencies": {
+    "components-compiler": "git+https://git@github.com:pdrazewski/components-compiler.git"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:pdrazewski/components-kit.git"
+  },
+  "author": "pdrazewski",
+  "license": "MIT"
+}
