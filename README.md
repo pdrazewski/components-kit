@@ -12,7 +12,7 @@ Bundle assets with [webpack components compiler](https://github.com/pdrazewski/c
 - Bundle fonts and images with url-loader and file-loader
 - Source maps are set up for both CSS and JS
 - Live update with webpack-dev-server
-- Ship in with [most.js](https://github.com/cujojs/most) for reactive programming
+- Reactive programming with [most.js](https://github.com/cujojs/most)
 
 ## How to start
 
