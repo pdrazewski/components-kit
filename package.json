@@ -4,7 +4,7 @@
   "description": "Kit for building frontend components",
   "main": "webpack.config.js",
   "scripts": {
-    "config": "cp node_modules/front-components-compiler/webpack.config.js webpack.config.js & cp node_modules/front-components-compiler/template.twig template.twig & cp node_modules/front-components-compiler/postcss.config.js postcss.config.js",
+    "config": "cp node_modules/front-components-compiler/webpack.config.js webpack.config.js & cp node_modules/front-components-compiler/template.twig template.twig & cp node_modules/front-components-compiler/postcss.config.js postcss.config.js & cp node_modules/front-components-compiler/.babelrc .babelrc",
     "start": "webpack-dev-server --open",
     "build": "webpack -p"
   },

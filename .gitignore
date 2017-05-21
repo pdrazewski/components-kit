@@ -3,3 +3,5 @@ npm-debug.log
 postcss.config.js
 template.twig
 webpack.config.js
+.babelrc
+dist
