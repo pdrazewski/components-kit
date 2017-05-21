@@ -1,7 +1,7 @@
 # Components kit
 
 Kit for creating frontend components. 
-Bundle assets with webpack components compiler https://github.com/pdrazewski/components-compiler
+Bundle assets with [webpack components compiler](https://github.com/pdrazewski/components-compiler)
 
 ## How to start
 
