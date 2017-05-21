@@ -1,2 +1,5 @@
 node_modules
 npm-debug.log
+postcss.config.js
+template.twig
+webpack.config.js
