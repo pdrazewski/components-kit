@@ -3,6 +3,17 @@
 Kit for creating frontend components. 
 Bundle assets with [webpack components compiler](https://github.com/pdrazewski/components-compiler)
 
+## Features
+
+- Compile Vue.js templates with vue-loader
+- Compile HTML / TWIG templates with twig-loader
+- Compile JS with babel-loader (ES2015 preset)
+- Compile CSS with scss-loader, css-loader and postcss-loader (autoprefixer)
+- Bundle fonts and images with url-loader and file-loader
+- Source maps are set up for both CSS and JS
+- Live update with webpack-dev-server
+- Reactive programming with [most.js](https://github.com/cujojs/most)
+
 ## How to start
 
 ```
